@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusti Company Profile</title>
+    <link rel="icon" type="image/png" href="/img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="logo"></div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#profile">Our Profile</a>
+            <a href="#headquarter">Headquarter</a>
+            <a href="#message">Message Us</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section id="home" class="hero-section">
+            <div class="hero-text">
+                <h1>Hi, Welcome To Website</h1>
+                <p>This website was created as a practice project to demonstrate basic web development skills.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="profile" class="section">
+            <h2>Our Profile</h2>
+
+            <div class="profile-box">
+
+                <h3>About the Company</h3>
+                <p>
+                    Our company operates in the modern technology sector, focusing on website development,
+                    application creation, and digital innovation. We aim to deliver high-quality digital solutions
+                    that support business growth and enhance user experience.
+                </p>
+
+                <h3>Vision</h3>
+                <p>To become the leading digital company in Indonesia.</p>
+
+                <h3>Mission</h3>
+                <ul>
+                    <li>Deliver high-quality and reliable products.</li>
+                    <li>Prioritize customer satisfaction in every project.</li>
+                    <li>Drive technological advancement through continuous innovation.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="headquarter" class="section">
+            <h2>Our Headquarter</h2>
+
+            <div class="hq-container">
+                <div class="hq-item">
+                    <div class="circle" style="--bg-img: url('/img/solo.jpeg');"></div>
+                    <p>Solo</p>
+                </div>
+
+                <div class="hq-item">
+                    <div class="circle" style="--bg-img: url('/img/yogyakarta.jpeg');"></div>
+                    <p>Yogyakarta</p>
+                </div>
+
+                <div class="hq-item">
+                    <div class="circle" style="--bg-img: url('/img/suarabaya.jpeg');"></div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="message-us" class="section message-section">
+            <h2>Message Us</h2>
+
+            <div class="message-container">
+
+                <form id="message-form">
+                    <label style="color: #f67a93;">Name</label>
+                    <input type="text" id="name" required>
+
+                    <label style="color: #f67a93;">Email</label>
+                    <input type="email" id="email" required>
+
+                    <label style="color: #f67a93;">Phone Number</label>
+                    <input type="number" id="phone" required>
+
+                    <label style="color: #f67a93;">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+
+                    <button type="button" onclick="submitForm()">Submit</button>
+                </form>
+
+                <div id="result-box" class="result-box">
+                    <h3>Result</h3>
+                    <p><b>Name:</b> <span id="result-name">-</span></p>
+                    <p><b>Email:</b> <span id="result-email">-</span></p>
+                    <p><b>Phone:</b> <span id="result-phone">-</span></p>
+                    <p><b>Message:</b> <span id="result-message">-</span></p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>© 2025 Gusti Sekar. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
