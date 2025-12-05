@@ -23,7 +23,7 @@ body {
 .logo {
     width: 60px;
     height: 60px;
-    background-image: url("../img/icon-new.png");
+    background-image: url("img/icon-new.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ header h1 {
 
 .hero-section {
     height: 400px;
-    background-image: url("../img/banner.jpeg");
+    background-image: url("img/banner.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
